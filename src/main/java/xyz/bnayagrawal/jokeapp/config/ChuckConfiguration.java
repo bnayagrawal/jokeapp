@@ -6,11 +6,12 @@ import org.springframework.context.annotation.Configuration;
 
 /*
 * Java bean configuration
+* [Disabled in favour of XML Configuration]
 * */
-@Configuration
+// @Configuration
 public class ChuckConfiguration {
 
-    @Bean
+    // @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
